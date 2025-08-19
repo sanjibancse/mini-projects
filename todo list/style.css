@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.todo-container {
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 40px;
+    position: relative;
+    top: 200px;
+}
+
+/* Style for completed task */
+.Completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Optional button styles */
+.hello {
+    margin-left: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
